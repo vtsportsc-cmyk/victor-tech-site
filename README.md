@@ -44,6 +44,12 @@ Copie `.env.example` para `.env.local` se quiser sobrescrever valores localmente
 cp .env.example .env.local
 ```
 
+### Analytics
+
+O site já usa **Vercel Analytics** (`@vercel/analytics`, já incluído no `app/layout.tsx`). Para ver os
+dados, ative em **Vercel → Project → Analytics** (não precisa de nenhuma chave nem variável de ambiente).
+
+
 ## Editar o conteúdo
 
 Tudo fica em arquivos de texto:

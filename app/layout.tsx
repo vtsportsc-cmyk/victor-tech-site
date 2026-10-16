@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Newsreader, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import SmoothScroll from "../components/SmoothScroll";
 import { person } from "./content";
@@ -106,6 +107,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <SmoothScroll />
         {children}
+        <Analytics />
       </body>
     </html>
   );

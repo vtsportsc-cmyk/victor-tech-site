@@ -11,3 +11,6 @@ tsconfig.tsbuildinfo
 
 # Vercel
 .vercel
+
+.vercel
+.env*
